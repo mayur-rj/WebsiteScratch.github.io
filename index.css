@@ -1,0 +1,155 @@
+/*CSS Scratch Website*/
+body{
+    margin:0;
+     padding:0;
+     width:100%; 
+     font-family: 'Indie Flower', cursive;
+}
+
+img{
+    float: left;
+    padding: 5px;
+    border: 4px solid white;
+    margin: auto;
+}
+
+/*
+#header{
+    background-color: red;
+}
+
+.logo{
+    margin-left: 100px;
+    padding: 5px;
+    border: 2px solid red;
+    margin: auto;
+    width: 33%;
+    height: 40px;
+    position:sticky;
+    float: left;
+        display: inline-block;
+}
+*/
+
+.mast{
+    width:100%;
+    background-color: rgba(224, 255, 255, 0.5);
+    height: 60px;
+    margin-top: 20px;
+    position: fixed;
+    float: right;
+   
+}
+
+.container{
+    max-width: 1204px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+.section{
+    border: 1px solid #ddd;
+    min-height: 250px;
+    background-color: #fff;
+   
+}
+
+#nav{
+    margin-top: 10px;
+    float: right;
+    width: 600px;
+}
+
+#nav ul{
+    list-style:none;
+    margin:  auto;
+    display:block;
+  
+}
+
+#nav li{
+    float: left;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: royalblue;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+
+#nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: ghostwhite;
+}
+
+#nav li a.active {
+    border-bottom: 3px solid yellow ;
+    color: yellow;
+}
+
+#nav li a:hover{
+    color:orange;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap{
+    background-color: lightgray;
+    background-color: rgba(200,200,200,0.6);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+#section1 .wrap{
+    margin-top: 100px;
+}
+
+#section1{
+    background: url('http://placeimg.com/640/480/tech');
+    background-size: cover;
+}
+
+#section2 {
+    background-color: blanchedalmond;
+    background-size: cover;
+        
+}
+
+#section3 {
+    background: url('https://placeimg.com/1000/800/tech');
+    background-size: cover;
+}
+
+#section4, #section6{
+    background-color: floralwhite;
+    background-size: cover;
+        }
+
+#section5{
+    background: url('http://placeimg.com/1000/800/people');
+    background-size: cover;
+}
+
+#footer{
+    background-color: darkblue;
+    color: azure;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#f11{
+     width: 66%;
+    display: inline-block;
+    
+}
+
+#f22{
+     width: 33%;
+    display: inline-block;
+}
